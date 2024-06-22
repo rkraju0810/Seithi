@@ -40,13 +40,13 @@ export const DataProvider = ({children}) =>{
     useEffect(() => {
 
 
-        //  const Search_URL = `https://newsapi.org/v2/everything?q=${searchcontent}&apiKey=32cc13e77b7f44259aa34519a8662044`
+         const Search_URL = `https://newsapi.org/v2/everything?q=${searchcontent}&apiKey=32cc13e77b7f44259aa34519a8662044`
       
-        //  const URL = `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=32cc13e77b7f44259aa34519a8662044`
+         const URL = `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=32cc13e77b7f44259aa34519a8662044`
       
-        const Search_URL = `https://newsapi.org/v2/everything?q=${searchcontent}&apiKey=f2385347b8a6434782fca97d480b38c9`
+        // const Search_URL = `https://newsapi.org/v2/everything?q=${searchcontent}&apiKey=f2385347b8a6434782fca97d480b38c9`
       
-        const news_URL = `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=f2385347b8a6434782fca97d480b38c9`
+        // const news_URL = `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=f2385347b8a6434782fca97d480b38c9`
     
          
         //  const Search_URL = `https://newsapi.org/v2/everything?q=${searchcontent}&apiKey=d6e9fa5b93374eafb52b54d523a2a2db`
