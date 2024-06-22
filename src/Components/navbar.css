@@ -1,0 +1,56 @@
+.container-fluid{
+    padding: 10px 40px;
+    background-color: gray;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+}
+.spantext-navbar{
+    color: white;
+}
+
+.nav-item{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav-item:hover{
+cursor: pointer;
+}
+
+.nav-link{
+    color: white;
+}
+
+.active{
+color: black;
+position: relative;
+bottom: 5px;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:focus{
+  display: none;
+}
+
+.form-control{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: none;
+}
+
+.btn-search{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
