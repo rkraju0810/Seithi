@@ -42,7 +42,7 @@ export const DataProvider = ({children}) =>{
 
          const Search_URL = `https://newsapi.org/v2/everything?q=${searchcontent}&apiKey=32cc13e77b7f44259aa34519a8662044`
       
-         const URL = `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=32cc13e77b7f44259aa34519a8662044`
+         const news_URL = `https://newsapi.org/v2/top-headlines?country=${countrycode}&category=${category}&apiKey=32cc13e77b7f44259aa34519a8662044`
       
         // const Search_URL = `https://newsapi.org/v2/everything?q=${searchcontent}&apiKey=f2385347b8a6434782fca97d480b38c9`
       
